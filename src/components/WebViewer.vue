@@ -15,8 +15,8 @@ export default {
     WebViewer(
       {
         path: this.path,
-        initialDoc: `${process.env.BASE_URL}files/demo.pdf`,
-        licenseKey: 'VMeLR5MsW5lX3X9YfqQF',
+        initialDoc: `${process.env.BASE_URL}files/document.pdf`,
+        licenseKey: 'm2vQI76xIF4pXVaM4cfF',
       },
       this.$refs.viewer
     ).then((instance) => {

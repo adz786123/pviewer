@@ -39,7 +39,7 @@ export default {
       // adds a button to the header that on click sets the page to the next page
       UI.setHeaderItems((header) => {
         header.push({
-          type: "actionButton",
+          type: "none",
           img: "https://icons.getbootstrap.com/assets/icons/caret-right-fill.svg",
           onClick: () => {
             const currentPage = Core.documentViewer.getCurrentPage();
@@ -63,6 +63,6 @@ export default {
 <style scoped>
 div {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 </style>
